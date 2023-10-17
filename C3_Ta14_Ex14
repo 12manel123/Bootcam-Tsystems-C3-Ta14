@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T18:28:51.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="nFAw_756WNaqYAuM0GOf" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T18:32:54.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="Q4MWRCzGc4hzGuFJB83g" version="22.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1409" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="220" y="370" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yF9baO8PkYdt8Co1jeJH-44" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="320" width="30" height="30" as="geometry">
+          <mxGeometry x="1040" y="320" width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -368,6 +368,9 @@
         </mxCell>
         <mxCell id="yF9baO8PkYdt8Co1jeJH-227" value="1 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="755" y="435" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yF9baO8PkYdt8Co1jeJH-228" value="Alumnos(&lt;u&gt;DNI&lt;/u&gt;, Nombre, Apellido1, Apellido2, Dirección, Sexo, FechaNac, &lt;u&gt;CursoCod&lt;/u&gt;)&lt;br&gt;Cursos&lt;u&gt;(CursoCod&lt;/u&gt;, NombreCurso, &lt;u&gt;ProfesorDNI&lt;/u&gt;, MaxAlumnos, FechaInicio, FechaFin, NumHoras)&lt;br&gt;Profesores(&lt;u&gt;DNI&lt;/u&gt;, Nombre, Apellido1, Apellido2, Dirección, Titulación, Gana)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="540" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
