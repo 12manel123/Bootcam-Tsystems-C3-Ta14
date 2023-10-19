@@ -3,12 +3,12 @@ use ProvedoresPiezas;
 
 CREATE TABLE Piezas (
     codigo INT PRIMARY KEY,
-    nombre NVARCHAR(100)
+    nombre VARCHAR(100)
 );
 
 CREATE TABLE Proveedores (
     id CHAR(4) PRIMARY KEY,
-    nombre NVARCHAR(100)
+    nombre VARCHAR(100)
 );
 
 CREATE TABLE Suministra (
