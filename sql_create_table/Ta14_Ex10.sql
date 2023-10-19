@@ -22,8 +22,8 @@ CREATE TABLE Venta (
     maquina INT NOT NULL,
     producto INT NOT NULL,
     PRIMARY KEY (cajero, maquina, producto),
-    FOREIGN KEY (cajero) REFERENCES cajeros(codigo) ON DELETE CASCADE,
-    FOREIGN KEY (maquina) REFERENCES maquinas_Registradoras(codigo) ON DELETE CASCADE,
-    FOREIGN KEY (producto) REFERENCES productos(codigo) ON DELETE CASCADE
+    FOREIGN KEY (cajero) REFERENCES Cajeros(codigo) ON DELETE CASCADE,
+    FOREIGN KEY (maquina) REFERENCES Maquinas_Registradoras(codigo) ON DELETE CASCADE,
+    FOREIGN KEY (producto) REFERENCES Productos(codigo) ON DELETE CASCADE
 );
 
