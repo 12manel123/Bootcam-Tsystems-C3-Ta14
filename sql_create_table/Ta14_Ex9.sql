@@ -3,12 +3,12 @@ use Cientificos;
 
 CREATE TABLE Cientificos (
     DNI VARCHAR(8) PRIMARY KEY,
-    nomApels NVARCHAR(255)
+    nomApels VARCHAR(255)
 );
 
 CREATE TABLE Proyecto (
     id CHAR(4) PRIMARY KEY,
-    nombre NVARCHAR(255),
+    nombre VARCHAR(255),
     horas INT
 );
 
